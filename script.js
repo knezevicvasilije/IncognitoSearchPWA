@@ -100,6 +100,7 @@ async function fetchData(data){
         dataString=`${data}`
     }
     console.log(dataString)
+    
 
 
 fetch(`${api_urlNews}${dataString}`).then(response => {
